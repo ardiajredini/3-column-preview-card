@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Oswald:wght@300;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Oswald:wght@300;500&family=Roboto&display=swap');
+
+*{
+    
+    
+    
+}
+
+main{
+    padding-top: 100px;
+}
+
+
+
+
+
+.btn-class{
+  padding-top: 80px;
+}
+
+.btn-1{
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    color:hsl(31, 77%, 52%);
+}
+
+.btn-2{
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3{
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    height: 45px;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-1:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.3s ease 0s;
+    color: white;
+    
+}
+.btn-2:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.3s ease 0s;
+    color: white;
+    
+}
+.btn-3:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.3s ease 0s;
+    color: white;
+    
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    border-radius: 10px 0px 0px 10px;
+    background-color: hsl(31, 77%, 52%);
+    width: 210px;
+    padding: 50px;
+    height: 400px;
+   
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    width: 210px;
+    padding: 50px;
+    height: 400px;
+}
+
+.box3{
+    border-radius: 0px 10px 10px 0px;
+    background-color: hsl(179, 100%, 13%);
+    width: 210px;
+    padding: 50px;
+    height: 400px;
+}
+
+p{
+    line-height: 10px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    color: white;
+    
+
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width:968px) {
+  
+    main{
+       display: flex;
+       justify-content: center;
+    }
+
+    .box{
+       display: inline;
+   }
+
+
+   .box1{
+    border-radius: 10px 10px 0% 0%;
+    }
+
+    .box3{
+        border-radius: 0px 0px 10px 10px;
+        }
+}
